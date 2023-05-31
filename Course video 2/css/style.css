@@ -1,0 +1,190 @@
+
+
+
+
+h2{
+    text-transform: uppercase;
+    line-height: 1.6em;
+}
+body{
+    background-color: aquamarine;
+    color: black;
+   
+  
+ 
+
+    font: normal 16px Arial, Helvetica , sans-serif;
+    
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+
+
+}
+a:hover{
+    color: brown;
+
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: chartreuse;
+}
+
+.row{
+    width:100%;
+    margin: auto;
+    padding: 0;
+}
+.button  {
+    background-color:rgb(255, 21, 0);
+    color:rgb(74, 139, 0);
+    padding:10px 15px;
+    width:150px;
+    border:none;
+    cursor:pointer;
+}
+.clear{
+    clear: both ;
+}
+
+.box-a{
+    background-color: #333;
+    color: #fff;
+
+    /*Border */
+
+    border-top: 5px green solid;
+    border-bottom: 5px green solid;
+    border-left: 5px green solid;
+    border-right: 5px green solid;
+
+    border: 5px green solid;
+
+    border-width:7px;
+    border-top-width:12px;
+    border-top-style: dotted;
+    border-top-color:rgb(60, 255, 0);
+
+    /* Padding */
+
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+
+    /* Margin */
+    margin-top:40px;
+    margin-left:050px;
+    margin: 20px 0;
+
+    
+
+}
+.container{
+    width : 80%;
+    margin: auto;
+}
+
+.box-a h2{
+    color: rgb(255, 136, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: line-through;
+    letter-spacing: 0.1em;
+    
+
+}
+.box-b{
+    border: 4px  black dashed;
+    padding:20px;
+    margin: 20px 0;
+
+}
+/*list */
+
+.categories{
+    border:2px solid rgb(0,0,0);
+    border-bottom: 0;
+    border-radius:15px;
+    padding:0;
+    
+}
+
+.container h3{
+    text-align:center;
+    text-decoration: underline;
+
+}
+
+.categories ul{
+    padding: 50px;
+    padding-left:20px;
+    list-style-type: square;
+    list-style-type:none;
+    
+
+}
+.categories li{
+    padding-bottom:8px;
+    border-bottom:black dotted 2px;
+    list-style-image:url(../img/user.png);
+}
+
+.frm{
+    padding:20px;
+    margin:50px;
+}
+.frm .form-group{
+    padding-bottom: 15px;
+
+
+}
+
+.frm lable{
+    display: block;
+
+}
+
+.frm input[type="text"], .frm input[type="email"]{
+    padding: 8px;
+    width: 100%;
+}
+
+/* Services secrion*/
+
+
+.block{
+    float: left;
+    width:30.33%;
+    border: 1px #000 solid;
+    padding: 10px;
+    box-sizing:border-box;
+    margin:10px 1.5%;
+
+}
+/*main section and side bar*/
+#main-block{
+    float:left;
+    width:70%;
+    padding:10%;
+    box-sizing:border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+.p-box h3{
+    float: left ;
+
+}
